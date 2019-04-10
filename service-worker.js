@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/MurphyPone/react-bracket-generator/precache-manifest.1574faab04113168cd4898b3a1d1bde4.js"
+  "/react-bracket-generator/precache-manifest.6259c4e31232e0bd1dd959fb5bbd1415.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/MurphyPone/react-bracket-generator/index.html", {
+workbox.routing.registerNavigationRoute("/react-bracket-generator/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
